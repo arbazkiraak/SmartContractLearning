@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "behaviour_check",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Console-Cowboy-Solidity-Hacks/integer-underflow.sol": "UnderFlow"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Console-Cowboy-Solidity-Hacks/integer-underflow.sol": {
+			"keccak256": "0x60eb5917015d91993c168e957c57102b8f2d4439a99e4f11ebf24561423e363e",
+			"urls": [
+				"bzz-raw://640c4221e29ac8e5788883642d32e3999308a4c160383a30b2c5b33895d20b00",
+				"dweb:/ipfs/QmPPPWR4DFDG64D9rnjwNLBQU2JBKyttFFtixSC4m7KtBk"
+			]
+		}
+	},
+	"version": 1
+}

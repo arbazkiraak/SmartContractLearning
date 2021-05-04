@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Console-Cowboy-Solidity-Hacks/integer-overflow-underflow.sol": "Check"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Console-Cowboy-Solidity-Hacks/integer-overflow-underflow.sol": {
+			"keccak256": "0x268d93bc3272e38818e7e306acc534e156480ccee665d4c73ed4a88c0f90a3c3",
+			"urls": [
+				"bzz-raw://9b230abe59810362b3381a476010057a397901438ce9aca410f07426138a7769",
+				"dweb:/ipfs/QmaowGWWvZ4U24SYjDnd6Rs1SybJicjpRLrmBXZbwsQNmR"
+			]
+		}
+	},
+	"version": 1
+}

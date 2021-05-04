@@ -1,4 +1,6 @@
-> NOTES:
+NOTES:
+
+--------
 
 1. get the amount of ether stored in this contract
 
@@ -49,6 +51,8 @@ msg.sender.transfer(1000); // transfer the 1000 wei from SC to the caller addres
 msg.sender.transfer(address(this).balance) // transfer all the SC balance amount to  the function caller address.
 ```
 -----
+
+* ABI works similar like api, to call functions,variables to get information about those
 
 ```
 

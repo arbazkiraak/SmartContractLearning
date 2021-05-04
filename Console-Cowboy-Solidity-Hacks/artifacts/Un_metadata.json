@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Console-Cowboy-Solidity-Hacks/integer-overflow-underflow.sol": "Un"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Console-Cowboy-Solidity-Hacks/integer-overflow-underflow.sol": {
+			"keccak256": "0x56ebf374656ba1d6360ad7df7ae45d257b464ef0084cf90a9c56d7c9e5c0cb1d",
+			"urls": [
+				"bzz-raw://8811b3d884ab3227eed030d1794bf046dd87946ec55ee391d661f1b9e950fb70",
+				"dweb:/ipfs/QmPt6oyPu1rycrNf8GtzEaKf7kinH4ajP5eZdq4KNBvxYn"
+			]
+		}
+	},
+	"version": 1
+}

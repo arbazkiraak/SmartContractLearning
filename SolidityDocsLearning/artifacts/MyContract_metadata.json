@@ -6,18 +6,18 @@
 	"output": {
 		"abi": [
 			{
-				"constant": false,
-				"inputs": [
+				"constant": true,
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "foo",
-				"outputs": [],
 				"payable": false,
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -25,11 +25,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"name": "setValue",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learning/modifier.sol": "MyContract"
+			"SolidityDocsLearning/function.sol": "MyContract"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -56,11 +56,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Learning/modifier.sol": {
-			"keccak256": "0x2bd58fffd1245e76bf05eb5578817a1b6e57483aa0833daeaa7f79ff54d0a204",
+		"SolidityDocsLearning/function.sol": {
+			"keccak256": "0xc9e2044c084fa5fb4ba7cab284ed0078a079ee4b8187e907c894795d61ff82af",
 			"urls": [
-				"bzz-raw://56210ab0392b81427fc0c1190ccfdef6cda8c5f1647e125500ebe2c20019a3e2",
-				"dweb:/ipfs/QmNfjvDijiaJx2NjpzdRP7SomzWfjromsggSXz5rjJyuW4"
+				"bzz-raw://edffcab129fe222bfef08df0ef6165207bf6de631ce526bf5fc4c3b499ac9689",
+				"dweb:/ipfs/QmcGcqb4wAmmBVYGVz69UwDyrDQd5iRDEQF6J6mHLN3Nnt"
 			]
 		}
 	},

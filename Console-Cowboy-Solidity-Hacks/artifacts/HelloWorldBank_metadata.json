@@ -68,13 +68,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withdrawAll",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -86,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"cowboys/3-helloworldbank.sol": "HelloWorldBank"
+			"Console-Cowboy-Solidity-Hacks/integer-underflow.sol": "HelloWorldBank"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -100,11 +93,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"cowboys/3-helloworldbank.sol": {
-			"keccak256": "0x64c62eb7ed664c14fc8ea2746b5d1d80b0d26275f08d8cc9c97bc45441d91261",
+		"Console-Cowboy-Solidity-Hacks/integer-underflow.sol": {
+			"keccak256": "0x60eb5917015d91993c168e957c57102b8f2d4439a99e4f11ebf24561423e363e",
 			"urls": [
-				"bzz-raw://57e5821b5144eba0029cfafe114fea6ea5f6aad04b9aa724cc908441cd4fb64a",
-				"dweb:/ipfs/QmdM7549K1TiABcSPSEs5hJ9tiST5xvAcPoHdvuWPRJx4F"
+				"bzz-raw://640c4221e29ac8e5788883642d32e3999308a4c160383a30b2c5b33895d20b00",
+				"dweb:/ipfs/QmPPPWR4DFDG64D9rnjwNLBQU2JBKyttFFtixSC4m7KtBk"
 			]
 		}
 	},

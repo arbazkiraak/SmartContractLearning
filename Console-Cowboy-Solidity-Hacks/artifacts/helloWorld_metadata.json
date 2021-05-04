@@ -33,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"cowboys/2-helloworld.sol": "helloWorld"
+			"Console-Cowboy-Solidity-Hacks/2-helloworld.sol": "helloWorld"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -47,7 +47,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"cowboys/2-helloworld.sol": {
+		"Console-Cowboy-Solidity-Hacks/2-helloworld.sol": {
 			"keccak256": "0xc02b79f23ce2336db3868fe5074329889bfed290df9312d14d86d18279588509",
 			"urls": [
 				"bzz-raw://0702763739b1a49b2a9b146fb8b98032d6ca4053f445fd6b8d7d8c86c71b0fdc",
