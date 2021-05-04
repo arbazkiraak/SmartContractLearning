@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity-by-example/sending-ether-transfer-send-call.sol": "ReceiveEther"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity-by-example/sending-ether-transfer-send-call.sol": {
+			"keccak256": "0x4722a7c6928ec898f42f11f0222b2d29e1b2e031b69d305b200a3a65fdffbae3",
+			"urls": [
+				"bzz-raw://5e5dd60130bd262b93d3c0d325fdfbc89e44d0030b4eadb88dcfcec31b80efc9",
+				"dweb:/ipfs/QmTsH3udQgCjs9aZYKJFpS1TNMUXzMu2ASewHWReGnA2a3"
+			]
+		}
+	},
+	"version": 1
+}

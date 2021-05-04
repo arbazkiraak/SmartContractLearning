@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "contract Foo",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFooName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity-by-example/imports.sol": "Import"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity-by-example/Foo.sol": {
+			"keccak256": "0xea02156ec289463524a644e2517fffc55cc8c52d5bab3461e0bac0e9678b69bf",
+			"urls": [
+				"bzz-raw://4aeb74c7f1d88d267c5502b9d21bde06b70bbeffc084aafb80cfd36167aa35bb",
+				"dweb:/ipfs/QmUpsaMKxWafKvjzfvUJsgzG7qmD15trpmJD7nHKeNs22b"
+			]
+		},
+		"Solidity-by-example/imports.sol": {
+			"keccak256": "0x5f0372103acfa1d2fe76561840aa77656cec862a6009e7acab7455103f29567f",
+			"urls": [
+				"bzz-raw://1e5ff21c8984da3ceda0e8720b85800b254f8037924dbdfa350056d736698b62",
+				"dweb:/ipfs/QmcKuoAGyQg7Jx3NsE68sNikx4XV4KkQ6bDVMX6rWxGAUK"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.3/contracts/cryptography/ECDSA.sol": {
+			"keccak256": "0x31c48079dab181042e8694201f2783e1388778bc16eaac2bbab04f3cc1871282",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8be3f39ccb5eb6d7f476a28bd8cb26c9dc165624f6377ef2e0943dfd2c633070",
+				"dweb:/ipfs/QmWFZTXaN2kZmnDjGyXuB89fBXVnGF3h6qoEhV4fER9RzC"
+			]
+		}
+	},
+	"version": 1
+}

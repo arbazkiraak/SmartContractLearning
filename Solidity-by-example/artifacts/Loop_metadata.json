@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity-by-example/for-while.sol": "Loop"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity-by-example/for-while.sol": {
+			"keccak256": "0x52837752d715e07c6809cebb91abc956a9ba53b38243ee802dc83395fe60487f",
+			"urls": [
+				"bzz-raw://e78d9784bdfca1ff6a4640235336dd3faf3947e68e166b2fff4c4592ab526f4d",
+				"dweb:/ipfs/QmVMyZdjZ7o1w4LfmmBx4hbiby7aKsJ3bhqC5hJaoMRApq"
+			]
+		}
+	},
+	"version": 1
+}

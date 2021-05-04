@@ -1,0 +1,43 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Learning/Fallbacks.sol": "A"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Learning/Fallbacks.sol": {
+			"keccak256": "0x5f6871ce8b41dda3f1a8813ba6ca1566095597c28b93ddb0ece084d0d3655b9d",
+			"urls": [
+				"bzz-raw://0a18b515c83a84e089be3a10b454eab51d8bdf1334ba19240153299b5a938148",
+				"dweb:/ipfs/QmXkZELtWKFi8MjWEy3CkwJzYZRoXuV1X33Ld7Q6VLag1r"
+			]
+		}
+	},
+	"version": 1
+}

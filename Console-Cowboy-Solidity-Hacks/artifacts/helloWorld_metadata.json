@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cowboys/2-helloworld.sol": "helloWorld"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cowboys/2-helloworld.sol": {
+			"keccak256": "0xc02b79f23ce2336db3868fe5074329889bfed290df9312d14d86d18279588509",
+			"urls": [
+				"bzz-raw://0702763739b1a49b2a9b146fb8b98032d6ca4053f445fd6b8d7d8c86c71b0fdc",
+				"dweb:/ipfs/QmQztgFxBBJi5BuAt9BWFtwpzdY82Bm2HtRjBRsETT1Ljk"
+			]
+		}
+	},
+	"version": 1
+}

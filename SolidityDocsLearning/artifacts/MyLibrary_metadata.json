@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "add10",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Learning/Library.sol": "MyLibrary"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Learning/Library.sol": {
+			"keccak256": "0x736c15b3d3e02131cba66171a2e5cfd7fc17949a5e2388808975eaa9304e0b33",
+			"urls": [
+				"bzz-raw://5bb3eb59c8dbe8c0e9e263dec209c5e7b63ec72a69323401c916e8d12e413605",
+				"dweb:/ipfs/QmYSHJ9VtB6N6wi4A34fcCBE9tsbVZstT6BFVgFhUWkmVA"
+			]
+		}
+	},
+	"version": 1
+}

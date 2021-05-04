@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getReserves",
+				"outputs": [
+					{
+						"internalType": "uint112",
+						"name": "reserved",
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint112",
+						"name": "reserve1",
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint32",
+						"name": "blockTimestampLast",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity-by-example/interface-uniswap.sol": "UniSwapV2Pair"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity-by-example/interface-uniswap.sol": {
+			"keccak256": "0x7a9d4a5527da03c3b56dd2f8bb3eaaca54a678227390eea0546baefb09c4844c",
+			"urls": [
+				"bzz-raw://9c0287197a8e99f62e89699c7019c400403ce3ef954860dc1adf34678f5538a8",
+				"dweb:/ipfs/QmRkkVzWyWPvhqox9xBt8RRcPb9U2f8uNaW61trvb3qQuo"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity-by-example/if-else.sol": "IFelse"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity-by-example/if-else.sol": {
+			"keccak256": "0x1686b807f1f29eba9c6fe5f707fe988739bca6a304fd2f5c5e53da572d0e9a5c",
+			"urls": [
+				"bzz-raw://ade1b0ec6b8e03aaa9a1ad3ecd25534deabdd1bcdfda93ba5dd03d1502033d6a",
+				"dweb:/ipfs/Qma1RVSoEgQmtLkJMafi2XuHmemKWaUBRMnN4vzT5GRtLf"
+			]
+		}
+	},
+	"version": 1
+}

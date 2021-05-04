@@ -1,0 +1,64 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50604780601d6000396000f3fe6080604052348015600f57600080fd5b5000fea265627a7a7231582022b3cc3403de79694734d5b2f8bc77ed32f8f748e8700e2949ce677eceff0ee264736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x47 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP STOP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0x22 0xB3 0xCC CALLVALUE SUB 0xDE PUSH26 0x694734D5B2F8BC77ED32F8F748E8700E2949CE677ECEFF0EE264 PUSH20 0x6F6C634300051100320000000000000000000000 ",
+			"sourceMap": "202:313:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;202:313:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5000fea265627a7a7231582022b3cc3403de79694734d5b2f8bc77ed32f8f748e8700e2949ce677eceff0ee264736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP STOP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0x22 0xB3 0xCC CALLVALUE SUB 0xDE PUSH26 0x694734D5B2F8BC77ED32F8F748E8700E2949CE677ECEFF0EE264 PUSH20 0x6F6C634300051100320000000000000000000000 ",
+			"sourceMap": "202:313:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;202:313:0;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "14200",
+				"executionCost": "69",
+				"totalCost": "14269"
+			},
+			"external": {
+				"": "45"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "fallback"
+		}
+	]
+}

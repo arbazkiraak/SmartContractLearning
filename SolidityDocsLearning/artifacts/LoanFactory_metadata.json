@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "createLoan",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Learning/create-SC-from-SC.sol": "LoanFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Learning/create-SC-from-SC.sol": {
+			"keccak256": "0xc9b2f0f9bedbd6f2ccbdcb31b22faedb9ad9e24a56671144dbd4f5a354b876c1",
+			"urls": [
+				"bzz-raw://ea4c689478dfc372f9e0b8bdd60a7b6a3fd54fb81859e9d8befaa7e6cc0405aa",
+				"dweb:/ipfs/Qme9QqUD6Etajje7KMkqv8daS27TTtKj1taoPvMMy8aGGK"
+			]
+		}
+	},
+	"version": 1
+}
