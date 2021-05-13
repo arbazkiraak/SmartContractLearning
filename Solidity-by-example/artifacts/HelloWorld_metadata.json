@@ -47,10 +47,10 @@
 	},
 	"sources": {
 		"Solidity-by-example/hello.sol": {
-			"keccak256": "0xfcfec104960b3dd872bf3391cbd6453b5347bf8725eb420fca4e373865f5b566",
+			"keccak256": "0x6473359fabbf3115aeb4417fa67afb0475a5554aeaf6ef53d9f25bf56d2b4c8d",
 			"urls": [
-				"bzz-raw://26f44e98fbb6f7a1d96464c326777dbea9f3de0abbc8b053d0ca6afa82035b17",
-				"dweb:/ipfs/Qmb8cdoJFAnMUTPuLwz4iryR2hPAv4w5J4DugWcSBpej88"
+				"bzz-raw://9a70c695180c44a037c369f1b670b642c62ab7b45469a1fb9f935e3c81cd5ef4",
+				"dweb:/ipfs/QmdfHmuVYxWzDRmKmCxtDUZ5r4Rk8N4nhhRpWXdaonwfk4"
 			]
 		}
 	},

@@ -2,6 +2,10 @@ NOTES:
 
 --------
 
+Solidity code -> compiles to bytecode -> EVM can understand only bytecode and process the instructions in Assembly.
+
+--------
+
 1. get the amount of ether stored in this contract
 
 ```
@@ -43,6 +47,27 @@ balances[address(0)] then means how many tokens the address 0 (0x00000000...00) 
 address(this) -> address of the current Smart contract deployed.
 address(this).balance -> total balance amount of the current smart contract
 ```
+
+-----
+
+Transactions properities : 
+
+```
+block.number (uint) : current block number
+block.timestamp (uint) : current block timestamp as seconds since uinx epoch
+block.gaslimit  (uint) : current block gaslimit
+block.difficuly (uint) : current block difficulty
+block.coinbase  (address) : current block miner's address
+
+block.blockhash(uint blockNumber) returns (bytes32) : takes blocknumber as input, returns hash of the given block.
+
+now(uint) : current block timestampt, same to (block.timestamp)
+
+tx.gasprice (uint) : gas price of the transaction
+tx.origin (address) : sender of the transaction address
+
+```
+
 
 -----
 

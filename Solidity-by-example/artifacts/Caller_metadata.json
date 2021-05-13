@@ -6,22 +6,23 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
-						"internalType": "contract Callee",
-						"name": "_callee",
-						"type": "address"
+						"indexed": false,
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
 					}
 				],
-				"name": "setX",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"name": "Response",
+				"type": "event"
 			},
 			{
 				"inputs": [
@@ -29,14 +30,9 @@
 						"internalType": "address",
 						"name": "_addr",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
 					}
 				],
-				"name": "setXFromAddress",
+				"name": "testCallDoesNotExist",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -44,17 +40,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Callee",
-						"name": "_callee",
+						"internalType": "address payable",
+						"name": "_addr",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
 					}
 				],
-				"name": "setXandSendEther",
+				"name": "testCallFoo",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -73,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity-by-example/calling-other-contract.sol": "Caller"
+			"Solidity-by-example/call.sol": "Caller"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -87,11 +78,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Solidity-by-example/calling-other-contract.sol": {
-			"keccak256": "0xeded7b186e4e7d0669d0acc0d67e4d8d6f6b720fa816785e98c99ace4a595b12",
+		"Solidity-by-example/call.sol": {
+			"keccak256": "0x7d7acdfd59557fe367079bf311b7928887dc649f3fcf864ddb787df6ffb67f26",
 			"urls": [
-				"bzz-raw://f90e7f289588ed41fc1d4b0df26cbc4db876bd38769c7228e7512be9af0856be",
-				"dweb:/ipfs/QmZMhzgrsZzSyP1hLU2EVVrEtWUDTZmDyhc2EszwfJZHvz"
+				"bzz-raw://84ddfbc3e4072e892d4154c1533db67dac97d8968a400c4e7486c6a1f67a0eae",
+				"dweb:/ipfs/QmdbyLkj5ezucHhvNBMLuMAxLZG7W2jAYYKrMRs886rBeH"
 			]
 		}
 	},

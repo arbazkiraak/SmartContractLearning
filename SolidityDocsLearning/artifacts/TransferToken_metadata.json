@@ -44,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learning/ERC20-token-transfers.sol": "TransferToken"
+			"SolidityDocsLearning/ERC20-token-transfers.sol": "TransferToken"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -55,14 +55,14 @@
 		"remappings": []
 	},
 	"sources": {
-		"Learning/ERC20-token-transfers.sol": {
+		"SolidityDocsLearning/ERC20-token-transfers.sol": {
 			"keccak256": "0x7670ccec93e742658e66a16787518e9e16a6758508814c77cb9fa1bc374aa562",
 			"urls": [
 				"bzz-raw://bb3fc4f1fd4b729af6af682147e35734b9fbc3e7e0e8b14f21649064e2ff47f5",
 				"dweb:/ipfs/QmX4vg6sqBaHWCBVWGkX1QfukikJm37vEoXcVeQiYHLn8G"
 			]
 		},
-		"Learning/Token.sol": {
+		"SolidityDocsLearning/Token.sol": {
 			"keccak256": "0x2b615c88ad82d63dcbace7888b3553f3d1d050b14e79a97000846cbaf74373a7",
 			"urls": [
 				"bzz-raw://9f0fdc7a22e2903e8e476e697fad23ff170ad76969f86755a9cddadcbf108721",

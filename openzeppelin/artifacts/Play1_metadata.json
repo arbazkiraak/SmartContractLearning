@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "intialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "y",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"oz/upgradable_contracts.sol": "Play1"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+			"keccak256": "0x67d2f282a9678e58e878a0b774041ba7a01e2740a262aea97a3f681339914713",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://297df5725003e586651278a5d021b176457c5bb05a954c8490f21db2754e7352",
+				"dweb:/ipfs/QmSe9AHjVnDn39NqT9hkjuCCGUwtc989WuZ5rWTe3GHrUD"
+			]
+		},
+		"oz/upgradable_contracts.sol": {
+			"keccak256": "0x623c680d115ddc9a896e1ebca8afa88c0b85dcb09e408b16aa5aadeb69b0d111",
+			"urls": [
+				"bzz-raw://db2c156f07132c557eac22f3bfa6a45bc6c3efa0f009e8af1d77a9f5421ffcc6",
+				"dweb:/ipfs/QmRcc5EoVovPpJfhZc367kg9rC7EkVit8Zhhc1P4PPTMb1"
+			]
+		}
+	},
+	"version": 1
+}
