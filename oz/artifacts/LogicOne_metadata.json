@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "val",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_val",
+						"type": "uint256"
+					}
+				],
+				"name": "setVal",
+				"outputs": [
+					{
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"oz/upgradable_proxy_without_oz.sol": "LogicOne"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"oz/upgradable_proxy_without_oz.sol": {
+			"keccak256": "0x5812c239e75e29d05ac1cf3342e00794be6447da0e29ee514f6126c34afe9ea9",
+			"urls": [
+				"bzzr://1faf692df24488e121da2f1c0dde8288dabf6e9b06047359e5cee364a5d21910"
+			]
+		}
+	},
+	"version": 1
+}

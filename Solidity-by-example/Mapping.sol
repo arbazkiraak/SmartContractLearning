@@ -12,6 +12,7 @@ contract Mapping {
     
     // {0xxxxxx:100}
     mapping(address => uint) public myMap;
+    address[] public arr;
     
     function get(address _addr) public view returns (uint){
         // get value of the address

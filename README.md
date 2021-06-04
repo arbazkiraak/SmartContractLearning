@@ -102,3 +102,11 @@ Keccak-256
 
 https://emn178.github.io/online-tools/keccak_256.html
 
+-------------------------
+
+https://www.w3schools.com/java/java_data_types.asp -> boolean takes 1 bit
+
+Bitfields are to used memory in more efficient way:
+
+In solidity `bool` is stored in 1byte(8 bits), However single bit can actually used.  
+hex value of `true` is `0x01` and `false` is `0x00` converted to binary these are `00000001` and `00000000` where 7 of the total 8 bits are not used.

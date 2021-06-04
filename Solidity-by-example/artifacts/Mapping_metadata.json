@@ -8,6 +8,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "_addr",
 						"type": "address"
@@ -103,10 +122,10 @@
 	},
 	"sources": {
 		"Solidity-by-example/Mapping.sol": {
-			"keccak256": "0x0b3f794faaf8d44576c2a9b57a2c7c38a3d077082d7b79ffabdcaab85b3818ae",
+			"keccak256": "0x5043c97bf89b1b583e8c6034df64a27cacbdfd954ab7646ccaf27cb7b843abc3",
 			"urls": [
-				"bzz-raw://95a1715cdb4b4b66e1064a8642074a834ec8e9035502a53086d276a7aa4c22e4",
-				"dweb:/ipfs/QmcP4fHCQKhEzahbkmp6LSyrbSVvnH7iC56tQeh1Aj8ESn"
+				"bzz-raw://c3f86fdd691cefba830ea9251d27d5dfb93e5fed142f726f1dee25a0710d2b6a",
+				"dweb:/ipfs/QmU7ot4nM4VUNVaFBaBURVjKs37QtN31fUEUuLqz5L8AZ9"
 			]
 		}
 	},

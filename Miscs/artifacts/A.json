@@ -1,0 +1,55 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820ba24a247bedf981a62c8adcd6246078722724f70e187089c34aac9e2ff42220f64736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0xBA 0x24 LOG2 SELFBALANCE 0xBE 0xDF SWAP9 BYTE PUSH3 0xC8ADCD PUSH3 0x460787 0x22 PUSH19 0x4F70E187089C34AAC9E2FF42220F64736F6C63 NUMBER STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "26:19:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:19:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fdfea265627a7a72315820ba24a247bedf981a62c8adcd6246078722724f70e187089c34aac9e2ff42220f64736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0xBA 0x24 LOG2 SELFBALANCE 0xBE 0xDF SWAP9 BYTE PUSH3 0xC8ADCD PUSH3 0x460787 0x22 PUSH19 0x4F70E187089C34AAC9E2FF42220F64736F6C63 NUMBER STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "26:19:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "66",
+				"totalCost": "12466"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

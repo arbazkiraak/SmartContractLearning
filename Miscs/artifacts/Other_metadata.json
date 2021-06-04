@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "get_selector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "selector_data_usecase",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Miscs/selectors.sol": "Other"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Miscs/selectors.sol": {
+			"keccak256": "0xb0c8e7589aea8b6d4c163c0774fee51d10e4679a0b2f9877ef9b4c318cd71088",
+			"urls": [
+				"bzz-raw://f6fabd6c5585c31a5b58e1aaa848242544ede9c571bce126729b7a9604a95200",
+				"dweb:/ipfs/QmariTjuWKmq4oynuks34M4bXKRb7hLwZGaC18Hwf6ySzX"
+			]
+		}
+	},
+	"version": 1
+}

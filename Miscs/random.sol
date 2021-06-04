@@ -1,0 +1,19 @@
+pragma solidity ^0.5.11;
+
+contract A {
+    //mapping(uint => address) public adopters;
+    
+    function adopt(uint petId) public returns (uint){
+    require(petId >= 0 && petId <= 15);
+
+    adopters[petId] = msg.sender;
+
+    return petId;
+}
+
+// Retrieving the adopters
+function getAdopters() public view returns (address[16] memory){
+    return adopters;
+}
+
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_packedBools",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_boolNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getBoolean",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Miscs/bitfields.sol": "Bit"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Miscs/bitfields.sol": {
+			"keccak256": "0x5f0b12b2b3b3385439f4f2ee91493bafdcaf3c3b61bfb00171e9fcca0ccc0bb3",
+			"urls": [
+				"bzz-raw://c50fdfab145c21d63ace145d677048a659caaf7b294d915896f91154d7a4e1ba",
+				"dweb:/ipfs/QmP4AA1XJoM3E34JdJAudDHb58tPZCd8ncR7Hgfj1p7Heb"
+			]
+		}
+	},
+	"version": 1
+}
